@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Luis • Santos</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/avatar.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex flex-column align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Luis Santos</h1>
+      <p style="font-size: 13px; margin-top: 5px; opacity: 0.8;">Full Stack Developer</p>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="hero-content text-center">
+          <h2>Luis Santos</h2>
+          <p class="hero-subtitle">I'm a <span class="typed" data-typed-items="Full Stack Developer, Frontend Developer, Backend Developer, Software Engineer">Full Stack Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+          
+          <div class="hero-description mt-4" data-aos="fade-up" data-aos-delay="150">
+            <p class="lead" style="font-size: 18px; max-width: 700px; margin: 20px auto; line-height: 1.8;">
+              Passionate about creating scalable web applications and solving complex problems with clean, efficient code. 
+              I specialize in building end-to-end solutions that deliver exceptional user experiences.
+            </p>
+          </div>
+
+          <div class="hero-stats mt-5 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="row justify-content-center">
+              <div class="col-md-3 col-6 mb-3">
+                <div class="hero-stat-item">
+                  <h3 class="mb-1" style="font-size: 36px; font-weight: 700; color: var(--accent-color);">5+</h3>
+                  <p style="font-size: 14px; opacity: 0.9;">Years Experience</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="hero-stat-item">
+                  <h3 class="mb-1" style="font-size: 36px; font-weight: 700; color: var(--accent-color);">50+</h3>
+                  <p style="font-size: 14px; opacity: 0.9;">Projects Completed</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="hero-stat-item">
+                  <h3 class="mb-1" style="font-size: 36px; font-weight: 700; color: var(--accent-color);">30+</h3>
+                  <p style="font-size: 14px; opacity: 0.9;">Happy Clients</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <div class="hero-stat-item">
+                  <h3 class="mb-1" style="font-size: 36px; font-weight: 700; color: var(--accent-color);">100%</h3>
+                  <p style="font-size: 14px; opacity: 0.9;">Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-quotes mt-4" data-aos="fade-up" data-aos-delay="250">
+            <p class="quote-text">"The only way to go fast is to go well"</p>
+            <p class="quote-text">"Simplicity is the soul of efficiency"</p>
+          </div>
+
+          <div class="hero-cta mt-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#portfolio" class="btn-hero me-3" style="display: inline-block; padding: 12px 35px; background: linear-gradient(135deg, var(--accent-color) 0%, #8b5cf6 100%); color: white; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);">
+              View My Work
+            </a>
+            <a href="#contact" class="btn-hero-outline" style="display: inline-block; padding: 12px 35px; background: transparent; color: var(--accent-color); border: 2px solid var(--accent-color); border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Passionate full stack developer with expertise in building scalable web applications. I specialize in modern JavaScript frameworks, robust backend systems, and creating seamless user experiences across the entire stack.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/avatar.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Full Stack Developer &amp; Software Engineer.</h2>
+            <p class="fst-italic py-3">
+              Experienced in building end-to-end web applications with modern technologies. Passionate about writing clean, efficient code and creating innovative solutions that solve real-world problems.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Kuala Lumpur, Malaysia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.luissantos.dev</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+60 12-345 6789</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>5+ Years</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>luissantosc0der@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span>github.com/luissantos</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I am a highly skilled and versatile software developer with a strong proficiency in modern web development and backend technologies. With experience spanning across multiple programming languages and frameworks, I specialize in building scalable, high-performance web applications. I have expertise in both frontend and backend development, leveraging tools such as React, Next.js, Node.js, PHP, go and Python to deliver end-to-end solutions.
+            </p>
+            <p class="py-3">
+              With a deep understanding of full-stack development, cloud technologies, and system architecture, I am committed to building innovative solutions that meet business needs while ensuring smooth performance, scalability, and maintainability.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Technologies and tools I work with to build amazing applications</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Frontend Skills -->
+        <div class="skill-category mb-5" data-aos="fade-up" data-aos-delay="150">
+          <h3 class="skill-category-title mb-4">Frontend Skills</h3>
+          <div class="row skills-content gy-4">
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-code-slash" style="color: var(--accent-color);"></i>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-bootstrap" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">React</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-jsx" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">TypeScript</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-html" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">HTML/CSS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="skill-category mb-5" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="skill-category-title mb-4">Backend Skills</h3>
+          <div class="row skills-content gy-4">
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-file-earmark-code" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Node.js</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-file-earmark-code-fill" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Express</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-py" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Python</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-file-earmark-binary" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">PHP</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-php" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Laravel</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-code-square" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Go</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database Skills -->
+        <div class="skill-category mb-5" data-aos="fade-up" data-aos-delay="250">
+          <h3 class="skill-category-title mb-4">Database</h3>
+          <div class="row skills-content gy-4">
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-database" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">MongoDB</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-sql" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">PostgreSQL</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-database-fill" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">MySQL</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- APIs -->
+        <div class="skill-category mb-5" data-aos="fade-up" data-aos-delay="280">
+          <h3 class="skill-category-title mb-4">APIs</h3>
+          <div class="row skills-content gy-4">
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-diagram-3" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">GraphQL</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-router" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">REST API</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DevOps Skills -->
+        <div class="skill-category mb-5" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="skill-category-title mb-4">DevOps & Tools</h3>
+          <div class="row skills-content gy-4">
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-git" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Git</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-cloud" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">AWS</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 text-center">
+              <div class="skill-item">
+                <i class="bi bi-filetype-js" style="color: var(--accent-color);"></i>
+                <h5 class="mt-3">Docker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>My professional journey as a full stack developer, building scalable applications and leading development teams.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Luis Santos</h4>
+              <p><em>Experienced Full Stack Developer with 5+ years of expertise in building scalable web applications. Proficient in modern JavaScript frameworks, backend development, and cloud infrastructure. Passionate about creating efficient, maintainable code and delivering exceptional user experiences.</em></p>
+              <ul>
+                <li>Kuala Lumpur, Malaysia</li>
+                <li>+60 12-345 6789</li>
+                <li>luissantosc0der@gmail.com</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Science</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>University of California, Berkeley</em></p>
+              <p>Focused on software engineering, algorithms, and database systems. Graduated with honors and completed several full-stack development projects.</p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Full Stack Web Development Bootcamp</h4>
+              <h5>2019</h5>
+              <p><em>Tech Academy, Kuala Lumpur</em></p>
+              <p>Intensive 12-week program covering modern web development technologies including React, Node.js, MongoDB, and deployment strategies.</p>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Full Stack Developer</h4>
+              <h5>2021 - Present</h5>
+              <p><em>TechCorp Solutions, Kuala Lumpur, Malaysia</em></p>
+              <ul>
+                <li>Led development of scalable web applications using React, Node.js, and PostgreSQL serving 100K+ users</li>
+                <li>Architected and implemented RESTful APIs and microservices improving system performance by 40%</li>
+                <li>Mentored junior developers and conducted code reviews to maintain high code quality standards</li>
+                <li>Collaborated with cross-functional teams to deliver features on time and within budget</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Full Stack Developer</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>WebStartup Inc., Kuala Lumpur, Malaysia</em></p>
+              <ul>
+                <li>Developed and maintained multiple full-stack applications using modern JavaScript frameworks</li>
+                <li>Implemented responsive frontend interfaces with React and TypeScript</li>
+                <li>Built RESTful APIs and integrated third-party services including payment gateways</li>
+                <li>Optimized database queries and application performance resulting in 30% faster load times</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Explore my collection of projects showcasing innovative solutions, modern design principles, and cutting-edge technologies. Each project represents a unique challenge solved with creativity and technical expertise.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout"  data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Comprehensive full stack development services to bring your ideas to life</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-code-slash"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Frontend Development</a></h4>
+              <p class="description">Building responsive and interactive user interfaces using React, TypeScript, and modern CSS frameworks. Creating seamless user experiences with attention to performance and accessibility.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-server"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Backend Development</a></h4>
+              <p class="description">Developing robust server-side applications with Node.js, Python, and scalable database solutions. Building RESTful APIs and microservices architecture for high-performance systems.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-database"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Database Design</a></h4>
+              <p class="description">Designing and optimizing database schemas for PostgreSQL, MongoDB, and other database systems. Ensuring data integrity, performance, and scalability.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud-upload"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Cloud Deployment</a></h4>
+              <p class="description">Deploying applications to AWS, Docker containers, and CI/CD pipelines. Setting up scalable infrastructure and monitoring solutions for production environments.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-gear"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">API Integration</a></h4>
+              <p class="description">Integrating third-party services, payment gateways, and external APIs. Building secure and efficient communication between systems.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-bug"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Testing & Debugging</a></h4>
+              <p class="description">Writing comprehensive unit tests, integration tests, and implementing debugging strategies. Ensuring code quality and reliability across the application stack.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Get in touch with me for collaboration opportunities or project inquiries</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-3 justify-content-center">
+
+          <div class="col-lg-10 col-xl-8">
+
+            <div class="info-wrap">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <a href="mailto:luissantosc0der@gmail.com" class="info-item-modern" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-icon-wrapper">
+                      <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                      <h4>Email</h4>
+                      <p>luissantosc0der@gmail.com</p>
+                    </div>
+                    <div class="info-arrow">
+                      <i class="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-6">
+                  <a href="tel:+60123456789" class="info-item-modern" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-icon-wrapper">
+                      <i class="bi bi-telephone"></i>
+                    </div>
+                    <div class="info-content">
+                      <h4>Phone</h4>
+                      <p>+60 12-345 6789</p>
+                    </div>
+                    <div class="info-arrow">
+                      <i class="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-6">
+                  <a href="https://github.com/luissantos" target="_blank" rel="noopener noreferrer" class="info-item-modern" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-icon-wrapper">
+                      <i class="bi bi-github"></i>
+                    </div>
+                    <div class="info-content">
+                      <h4>GitHub</h4>
+                      <p>github.com/luissantos</p>
+                    </div>
+                    <div class="info-arrow">
+                      <i class="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-6">
+                  <a href="https://linkedin.com/in/luissantos" target="_blank" rel="noopener noreferrer" class="info-item-modern" data-aos="fade-up" data-aos-delay="500">
+                    <div class="info-icon-wrapper">
+                      <i class="bi bi-linkedin"></i>
+                    </div>
+                    <div class="info-content">
+                      <h4>LinkedIn</h4>
+                      <p>linkedin.com/in/luissantos</p>
+                    </div>
+                    <div class="info-arrow">
+                      <i class="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+            <div class="copyright">
+              <p class="mb-0">© <span id="current-year">2025</span> Luis Santos. All rights reserved.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end">
+            <div class="footer-social">
+              <a href="https://github.com/luissantos" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/luissantos" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:luissantosc0der@gmail.com" class="footer-social-link" aria-label="Email">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 text-center">
+            <p class="footer-tagline mb-0">Built with passion for excellence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
